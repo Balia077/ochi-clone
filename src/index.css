@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'font-1';
+  src: url('../public/fonts/FoundersGrotesk-Semibold.ttf');
+}
+
+@font-face{
+  font-family: 'font-2';
+  src: url('../public/fonts/NeueMontreal-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'font-3';
+  src: url('../public/fonts/icomoon.ttf');
+}
