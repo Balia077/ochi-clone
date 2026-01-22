@@ -10,7 +10,7 @@ const LandingPage = () => {
         </div>
         <div className="masker font-[font-1] flex">
             <div className='w-[10vw] h-[6vw] mt-2.5'>
-              <img className='w-[9vw] h-[6vw] rounded-lg' src="../public/images/content-image01.jpg" alt="" />
+              <img className='w-[9vw] h-[6vw] rounded-lg' src="../images/content-image01.jpg" alt="" />
             </div>
             <h1 className='uppercase text-[9vw] leading-[6.5vw]'>Eye-Opening </h1>
         </div>
