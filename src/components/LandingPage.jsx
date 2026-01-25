@@ -1,7 +1,9 @@
+import { motion } from 'framer-motion';
 import React from 'react'
 import { FaArrowUp } from "react-icons/fa6";
 
 const LandingPage = () => {
+
   return (
     <div className='w-full h-screen bg-zinc-900 pt-1'>
       <div className='textStructure mt-40 px-14'>
@@ -9,9 +11,9 @@ const LandingPage = () => {
             <h1 className='uppercase text-[9vw] leading-[6.5vw]'>We Create</h1>
         </div>
         <div className="masker font-[font-1] flex">
-            <div className='w-[10vw] h-[6vw] mt-2.5'>
+            <motion.div initial={{width: 0}} animate={{width: "9vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1.5}} className='w-[10vw] h-[6vw] mt-2.5'>
               <img className='w-[9vw] h-[6vw] rounded-lg' src="../images/content-image01.jpg" alt="" />
-            </div>
+            </motion.div>
             <h1 className='uppercase text-[9vw] leading-[6.5vw]'>Eye-Opening </h1>
         </div>
         <div className="masker font-[font-1]">
