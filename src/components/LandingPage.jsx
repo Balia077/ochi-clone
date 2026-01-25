@@ -5,7 +5,7 @@ import { FaArrowUp } from "react-icons/fa6";
 const LandingPage = () => {
 
   return (
-    <div className='w-full h-screen bg-zinc-900 pt-1'>
+    <div data-scroll data-scroll-section data-scroll-speed="-0.6" className='w-full h-screen bg-zinc-900 pt-1'>
       <div className='textStructure mt-40 px-14'>
         <div className="masker font-[font-1]">
             <h1 className='uppercase text-[9vw] leading-[6.5vw]'>We Create</h1>
